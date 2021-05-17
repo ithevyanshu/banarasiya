@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+body{
+}
+
+nav{
+    margin: 0 3vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: #dd9354;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a img{
+    width: 15vmax;
+}
+
+.visit{
+    padding: 1px 2px;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: 1px solid #dd9354;
+}
+.visit:hover{
+    background-color: #dd9354;
+    color: white;
+}
+
+header{
+}
+
+.header{
+    width: 100%;
+}
+
+/* .demo{
+    top: 25vmin;
+    right: 10%;
+    position: absolute;
+    width: 20%;
+} */
+
+.about-us{
+    color: rgb(255, 255, 255);
+    background-color: rgb(221, 221, 221);
+}
+
+.about-us img{
+    filter: invert(80%);
+    width: 3vmax;
+    margin: 5px 22%;
+    transform: rotate(180deg);
+}
+
+.intro{
+    font-family: 'Playfair Display', serif;    
+    font-size: 1.5vmax;
+    margin: 0 25%;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.carousel{
+    font-family: 'Playfair Display', serif;    
+    font-size: 2vmax;
+    color: #dd9354;
+    
+}
+
+.e-banaras{
+    margin: 1rem 0;
+}
+
+.palign{
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 2vmax;
+}
+
